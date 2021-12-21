@@ -1,38 +1,24 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&family=Poor+Story&display=swap');
+
+.btn{
+  background-color: green;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.login-part
+{
+  margin: 1%;
+  background-color: lemonchiffon;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.login-part-title
+{
+  font-family: 'Nanum Pen Script', cursive;
+  font-family: 'Poor Story', cursive;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.header_part{
+  margin-left: 20%;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.left{
+  height: 1000px;
+  background-color: lightblue;
 }
